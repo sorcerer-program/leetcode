@@ -26,4 +26,3 @@ func detectCycle(head *ListNode) *ListNode {
     }
     return nil
 }
-// test
