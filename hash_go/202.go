@@ -14,7 +14,7 @@ func isHappy(n int) bool {
 func getSum(n int) int{
   sum := 0
   for n > 0 {
-    remainder := n % 1
+    remainder := n % 10
     sum += remainder * remainder
     n /= n
   }
